@@ -1,0 +1,35 @@
+# ============================================================================
+# 📦 DEPENDENCIES FOR RAG CHATBOT
+# ============================================================================
+# Installation: pip install -r requirements.txt
+# ============================================================================
+
+# Core Framework
+streamlit>=1.30.0
+langchain>=0.1.0
+langchain-openai>=0.0.5
+langchain-community>=0.0.20
+
+# Vector Store & Search
+opensearch-py>=2.4.0
+
+# Embeddings
+sentence-transformers>=2.2.0
+
+# OpenAI
+openai>=1.10.0
+
+# Utilities
+python-dotenv>=1.0.0
+requests>=2.31.0
+urllib3>=1.26.0
+
+# Optional: For better Thai language support
+pythainlp>=4.0.0
+
+# Optional: For document processing
+pypdf>=4.0.0
+python-docx>=1.1.0
+
+# Optional: For monitoring
+streamlit-extras>=0.3.0
